@@ -63,17 +63,35 @@ div {
     text-align: justify;
 }
 article{
-    /* border: 1px solid yellow; */
+    border: 1px solid yellow;
     display: flex;
     justify-content:center;
     align-items: center;
-    height: 600px;
+    height: 350px;
     font-size: 40px;
     text-indent: 2ch;
+    flex-wrap: wrap;
     
     
 }
 h1,h4{
     text-shadow: #ffffff 2px 2px 3px;
     
+}
+
+img{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+dt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    height: 100px;
+    text-decoration: underline;
+    font-size: xx-large;
 }
