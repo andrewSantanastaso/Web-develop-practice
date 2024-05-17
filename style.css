@@ -1,0 +1,19 @@
+.nav{
+    text-decoration-line: none;
+    
+    
+}
+ul{
+    display:flex;
+    list-style: none;
+    /* border: 5px solid red; */
+    justify-content: flex-end;
+    gap: 40px;
+    font-size: 25px;
+    width: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+li:hover{
+    text-decoration-line:underline;
+}
